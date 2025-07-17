@@ -1,0 +1,19 @@
+{
+  "name": "Atlas-Notes"
+  "version": "1.0.0",
+  "homepage": "https://Ethan-Ragbir.github.io/mindmap-notes",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
